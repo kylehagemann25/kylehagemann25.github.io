@@ -1,0 +1,347 @@
+/* Home Page */
+
+/* Nav */
+.page-header.page-header-xs {
+	min-height: 82vh !important;
+}
+.navbar-brand, .footer a, .description{
+	color: #1e3352 !important;
+}
+.fa-linkedin {
+	color: #0077B5 !important;
+}
+.navbar-transparent .navbar-brand {
+	color: white !important;
+}
+.navbar-transparent .fa-linkedin {
+	color: white !important;
+}
+.banner-title {
+  font-size: 34px;
+  color: white;
+  z-index: 999;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Main Card*/
+.profile-img {
+
+}
+.main-card {
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	display: inline-block;
+    margin-top: -5%;
+    transform: none !important;
+	transition: none !important;
+}
+.main-card:hover {
+	transform: none !important;
+	transition: none !important;
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+}
+.main-card .nav-tabs i {
+	width: 100%;
+    font-size: 75px;
+    margin-bottom: 15px;
+}
+.nav-tabs .nav-item .nav-link.active:before, .nav-tabs .nav-item .nav-link.active:hover:before, .nav-tabs .nav-item .nav-link.active:focus:before {
+	right: 45%;
+}
+.nav-tabs .nav-item .nav-link.active:after, .nav-tabs .nav-item .nav-link.active:hover:after, .nav-tabs .nav-item .nav-link.active:focus:after {
+	right: 45%;
+}
+.nav-tabs .nav-item .nav-link.active:before, .nav-tabs .nav-item .nav-link.active:hover:before, .nav-tabs .nav-item .nav-link.active:focus:before {
+	border-bottom-color: #ccc;
+}
+.mission {
+	background-color: #1e3352;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.mission p {
+  text-align: center;
+  display: inline-block;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.mission .fa {
+	font-size: 50px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.nav-tabs-navigation {
+	border-color: #ccc;
+}
+
+/* Experience Tab */
+.job1 {
+	margin-top: 30px !important;
+	margin-bottom: 40px;
+}
+.experience-info {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.experience-info p {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+.block p {
+	width: 100%;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+.experience-info h4 {
+	font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.fa-balance-scale {
+	font-size: 75px;
+	width: 100%;
+}
+.job2 p {
+  margin: 0 auto;
+}
+/* Education Tab */
+.schools {
+	width: 80%;
+    margin-left: 10%;
+    border: 2px solid #ccc;
+}
+.education-info {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.education-info h4 {
+	font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.school-logo {
+	max-width: 300px;
+	height: auto;
+}
+.degree {
+	color: #9A9A9A;
+}
+.school1 {
+	margin-top: 50px;
+}
+.school3 {
+	margin-bottom: 50px;
+}
+.schools-div {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 10%;
+	border-top: 4px solid #1e3352;
+}
+
+/* Contact Tab */
+.contact-info {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 50px;
+}
+.contact-info hr {
+	margin-bottom: 15px;
+}
+.contact-info h4 {
+	font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.top-div {
+	margin-bottom: 30px !important;
+}
+.bottom-div {
+	margin-top: 30px !important;
+}
+
+/* ==========================================================================
+  $Angled Divs
+========================================================================== */
+.edge--bottom {
+  position: relative;
+  z-index: 1;
+}
+.edge--bottom:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.edge--bottom:after {
+  bottom: 0;
+  -webkit-transform: skewY(-1.5deg);
+          transform: skewY(-1.5deg);
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+}
+
+.edge--bottom--reverse {
+  position: relative;
+  z-index: 1;
+}
+.edge--bottom--reverse:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.edge--bottom--reverse:after {
+  bottom: 0;
+  -webkit-transform: skewY(1.5deg);
+          transform: skewY(1.5deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+
+.edge--top {
+  position: relative;
+  z-index: 1;
+}
+.edge--top:before {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.edge--top:before {
+  top: 0;
+  -webkit-transform: skewY(1.5deg);
+          transform: skewY(1.5deg);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+}
+
+.edge--top--reverse {
+  position: relative;
+  z-index: 1;
+}
+.edge--top--reverse:before {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.edge--top--reverse:before {
+  top: 0;
+  -webkit-transform: skewY(-1.5deg);
+          transform: skewY(-1.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.edge--both {
+  position: relative;
+  z-index: 1;
+}
+.edge--both:before, .edge--both:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.edge--both:before {
+  top: 0;
+  -webkit-transform: skewY(1.5deg);
+          transform: skewY(1.5deg);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+}
+.edge--both:after {
+  bottom: 0;
+  -webkit-transform: skewY(-1.5deg);
+          transform: skewY(-1.5deg);
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+}
+
+.edge--both--reverse {
+  position: relative;
+  z-index: 1;
+}
+.edge--both--reverse:before, .edge--both--reverse:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.edge--both--reverse:before {
+  top: 0;
+  -webkit-transform: skewY(-1.5deg);
+          transform: skewY(-1.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+.edge--both--reverse:after {
+  bottom: 0;
+  -webkit-transform: skewY(1.5deg);
+          transform: skewY(1.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+.-blue {
+  background: #1e3352;
+}
+.block {
+  color: #fff;
+  margin: 0 0 200px;
+  padding: 5% 20px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.block h1 {
+  margin-bottom: 5%;
+}
+.block h5 {
+  display: inline-block;
+  margin-top: 5%;
+}
+.block p {
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  width: 90%;
+}
